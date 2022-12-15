@@ -1,13 +1,18 @@
 import React from "react";
-import "./index.css";
-
-import Counter from "./components/Counter/Counter";
+// import Counter from "./components/Counter/Counter";
+// import APIFetch from "./components/APIFetch/APIFetch";
+import Form from "./components/Form/Form";
 
 const App = () => {
   return (
-    <>
-      <Counter />
-    </>
+    <div
+      className="App"
+      style={{ display: "flex", flexDirection: "column", gap: "200px" }}
+    >
+      {/* <APIFetch />
+      <Counter /> */}
+      <Form />
+    </div>
   );
 };
 
